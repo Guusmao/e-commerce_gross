@@ -1,13 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  /* Configuração de Fonte */
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 
-  /* Configuração de Cores (Loja Drip) */
-  --color-primary: #C71585;
+  --color-primary: #F05736;
+  --color-primary-50: #FEF2EF;
+  --color-primary-100: #FDE3DC;
+  --color-primary-200: #FBC7B8;
+  --color-primary-300: #F7A08A;
+  --color-primary-400: #F37D5F;
+  --color-primary-500: #F05736;
+  --color-primary-600: #D9451F;
+  --color-primary-700: #B33619;
+  --color-primary-800: #8C2A14;
+  --color-primary-900: #661E0E;
+  --color-brand-black: #000000;
   --color-dark-gray-2: #A9A9A9;
 
-  /* No v4, você também pode definir bordas e raios se quiser */
   --radius-xl: 0.75rem;
 }
