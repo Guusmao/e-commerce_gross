@@ -1,0 +1,6 @@
+instalações: 
+npm install react-router-dom
+npm install react-icons
+npm install -D tailwindcss postcss autoprefixer
+npm install tailwindcss @tailwindcss/vite
+npx tailwindcss init -p (# Gera os arquivos de configuração do Tailwind e PostCSS)
