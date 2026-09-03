@@ -1,26 +1,9 @@
 ﻿import { useNavigate } from 'react-router-dom';
 
+// TODO: substituir por foto real do produto quando o cliente enviar
 const categorias = [
-  {
-    nome: 'Camisetas',
-    imagem: 'https://images.mont.ink/mockups/51173/Marrom_3697018.png',
-  },
-  {
-    nome: 'Calças',
-    imagem: 'https://rivierawear.com.br/cdn/shop/files/S7818ae00b9084262835f54fff6d61f1fU.jpg?v=1688494129',
-  },
-  {
-    nome: 'Bonés',
-    imagem: 'https://images.tcdn.com.br/img/img_prod/1150285/bone_mst_281_1_b909645315b840b62fd488ca0dbafe07.jpg',
-  },
-  {
-    nome: 'Tênis',
-    imagem: 'https://images.tcdn.com.br/img/img_prod/1188746/tenis_converse_all_star_amarelo_13_2_2258f75d65c88dfdde8ca197da06720d.jpg',
-  },
-  {
-    nome: 'Headphones',
-    imagem: 'https://fastshopbr.vtexassets.com/arquivos/ids/498166/0-JBLLIVE770PTO-PRD-1500-1.jpg?v=638702103996270000',
-  },
+  { nome: 'Camisas', imagem: '/placeholder-camisa.png' },
+  { nome: 'Shorts', imagem: '/placeholder-short.png' },
 ];
 
 const CategoriasPage = () => {

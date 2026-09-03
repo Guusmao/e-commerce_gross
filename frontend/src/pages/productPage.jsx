@@ -11,10 +11,7 @@ const ProductPage = () => {
   const searchQuery = searchParams.get('filter')?.toLowerCase() || '';
 
   const allFilters = [
-    { label: 'Marca', options: ['Adidas', 'Balenciaga', 'K-Swiss', 'Nike', 'Puma'] },
-    { label: 'Categoria', options: ['Esporte e lazer', 'Casual', 'Utilitário', 'Corrida'] },
-    { label: 'Gênero', options: ['Masculino', 'Feminino', 'Unisex'] },
-    { label: 'Estado', options: ['Novo', 'Usado'] },
+    { label: 'Categoria', options: ['Camisas', 'Shorts'] },
   ];
 
   const handleFilterChange = (value) => {

@@ -2,71 +2,42 @@
 import Hero from '../components/hero';
 import ProductListing from '../components/HomePage/productListing';
 import { IoShirtOutline } from "react-icons/io5";
-import { PiBaseballCapLight, PiHeadphonesLight, PiPantsLight } from "react-icons/pi";
-import { GiConverseShoe } from "react-icons/gi";
+import { PiPantsLight } from "react-icons/pi";
 import airJordanImg from '../assets/Laye 1.png';
 import { useNavigate } from 'react-router-dom';
 
 
 const categoryIcons = [
-  { icon: <IoShirtOutline size={40} />, label: "Camisetas" },
-  { icon: <PiPantsLight size={40} />, label: "Calças" },
-  { icon: <PiBaseballCapLight size={40} />, label: "Bonés" },
-  { icon: <PiHeadphonesLight size={40} />, label: "Headphones" },
-  { icon: <GiConverseShoe size={40} />, label: "Tênis" },
+  { icon: <IoShirtOutline size={40} />, label: "Camisas" },
+  { icon: <PiPantsLight size={40} />, label: "Shorts" },
 ];
 
 const products = [
   {
     id: 1,
-    name: "Nike Air Max 270",
-    image: "https://images.tcdn.com.br/img/img_prod/740066/tenis_nike_air_max_270_react_optical_preto_cinza_389_1_20200120160045.jpg",
-    price: 200,
-    priceDiscount: 149.9,
+    name: "Camisa Rashguard Gross",
+    image: "/placeholder-camisa.png",
+    price: 129.9,
+    priceDiscount: 99.9,
   },
   {
     id: 2,
-    name: "Adidas Ultraboost",
-    image: "https://authenticfeet.vtexassets.com/arquivos/ids/434723-800-800?v=638562278565370000&width=800&height=800&aspect=true",
-    price: 200,
+    name: "Camisa Casual Gross",
+    image: "/placeholder-camisa.png",
+    price: 89.9,
   },
   {
     id: 3,
-    name: "Puma RS-X",
-    image: "https://a-static.mlcdn.com.br/800x560/tenis-puma-rs-x-3d-masculino/b2online/3943110242/53502c5bb7a4aca0addb96f6ac8635a6.jpeg",
-    price: 99.9,
+    name: "Short MMA Gross",
+    image: "/placeholder-short.png",
+    price: 119.9,
+    priceDiscount: 99.9,
   },
   {
     id: 4,
-    name: "New Balance 574",
-    image: "https://cdn.bnws3.com.br/b2online.com.br/image/cache/data/produtos/new-balance/masculino/tenis-new-balance-574-v2-masculino-vinho---cinza-8784-24-01-24-00-1200x1200.jpg",
-    price: 150,
-    priceDiscount: 120,
-  },
-  {
-    id: 5,
-    name: "Asics Gel-Kayano",
-    image: "https://asicsbr.vteximg.com.br/arquivos/ids/2744214-1000-1000/null.jpg",
-    price: 75,
-  },
-  {
-    id: 6,
-    name: "Reebok Classic Leather",
-    image: "https://static.hupishop.com.br/public/hupibikes/imagens/produtos/tenis-reebok-classic-nylon-bege-feminino-667d9a2cdd458.jpg",
-    price: 30,
-  },
-  {
-    id: 7,
-    name: "Vans Old Skool",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBJ4a69-eDi4bOCihhjxFyiC9WWKC9krq3A&s",
-    price: 200,
-    priceDiscount: 180,
-  },
-  {
-    id: 8,
-    name: "Converse Chuck Taylor",
-    image: "https://cloviscalcados.vteximg.com.br/arquivos/ids/1036233-1024-1024/Tenis-Masculino-Chuck-Taylor-Converse-All-Star-CT00040007-0320004_001-02.jpg?v=638364710577700000",
-    price: 250,
+    name: "Short MMA Gross Preto",
+    image: "/placeholder-short.png",
+    price: 119.9,
   },
 ];
 
